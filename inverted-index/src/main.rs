@@ -27,11 +27,11 @@ fn main() {
         // step 2.2
         // if its search ask for 
         // search text 
-        gruntwork::read_directory::databases();
-        // let mut search_str = String::new();
-        // println!("you selected search, please enter content to search");
-        // io::stdin().read_line(&mut search_str).expect("Failed to read the search string, please try again");
-        // println!("{}", search_str);
+        // gruntwork::read_directory::databases();
+        let mut search_str = String::new();
+        println!("you selected search, please enter content to search");
+        io::stdin().read_line(&mut search_str).expect("Failed to read the search string, please try again");
+        println!("{}", search_str);
     }
 }
 
