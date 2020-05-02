@@ -32,6 +32,7 @@ fn main() {
         println!("you selected search, please enter content to search");
         io::stdin().read_line(&mut search_str).expect("Failed to read the search string, please try again");
         println!("{}", search_str);
+        gruntwork::read_index::read_index(search_str);
     }
 }
 
